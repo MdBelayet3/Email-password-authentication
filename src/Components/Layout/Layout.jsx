@@ -4,8 +4,7 @@ import { Outlet } from 'react-router';
 
 const Layout = () => {
     return (
-        <div>
-            <h1 className='text-3xl'>This is Layout</h1>
+        <div className='w-2/3 mx-auto'>
             <Header></Header>
             <Outlet></Outlet>
         </div>
